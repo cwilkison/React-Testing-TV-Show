@@ -49,7 +49,7 @@ const episodeData = [
 
 
 test("Episodes renders without errors", () => {
-    render(<Episodes episodes={[]}/>)
+    render(<Episodes episodes={[]}/>);
 });
 
 test("Render list of episodes after API call", () => {
